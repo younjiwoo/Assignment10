@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Contact</title>
+<link rel="stylesheet" href="scripts/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
+<link rel="stylesheet" href="jquery-mobile-theme/themes/customized.min.css" />
+<link rel="stylesheet" href="jquery-mobile-theme/themes/jquery.mobile.icons.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script><!--jQuery link-->
+<script type="text/javascript" src="../scripts/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script><!--jQuery Mobile JS-->
+</head>
+<body> 
+<section data-role="page">
+    
+    <header data-role="header">
+    <nav data-role="navbar">
+        <ul><!--   ul>li*4>a[href=#]   -->
+            <li><a href="index.html" class="ui-btn ui-icon-home ui-btn-icon-top">Home</a></li>
+            <li><a href="solutions.html" class="ui-btn ui-icon-bullets ui-btn-icon-top">Solutions</a></li>
+            <li><a href="contact.html" class="ui-btn ui-icon-phone ui-btn-icon-top ui-btn-active ui-state-persist">Contact</a></li>
+        </ul>            
+    </nav>
+    </header>
+    
+    <div class="ui-content">
+    <form method="get" action="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" value="" placeholder="Full Name" />
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" value="" placeholder="Email" />
+        <label for="select-native-1">Product Interest:</label>
+        <select name="select-native-1" id="select-native-1">
+        <option value="vProspect 2.0">vProspect 2.0</option>
+        <option value="vConvert 2.0">vConvert 2.0</option>
+        <option value="vRetain 1.0">vRetain 1.0</option>
+        </select>
+        <label for="QandC">Questions &amp; Comments:</label>
+        <textarea id="QandC"></textarea>
+        <input type="submit" value="Submit">
+    </form>    
+    </div>
+    
+    <footer data-role="footer" data-position="fixed">
+        <h6>Vecta Corp. 2016</h6>
+    </footer>
+
+</section>
+</body>
+</html>
